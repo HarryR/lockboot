@@ -148,7 +148,7 @@ boot-%: downloads/ec2-metadata-mock-linux-amd64 %/boot.disk user-data.json
 #####################################################################
 
 # Git tagging helpers
-TAG ?= v0.1.0
+TAG ?= v0.1.x
 
 # Create and push a new tag (or recreate if it exists)
 tag:

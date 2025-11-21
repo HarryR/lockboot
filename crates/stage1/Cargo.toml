@@ -5,6 +5,7 @@ edition = "2021"
 license.workspace = true
 
 [dependencies]
+idna_adapter = { workspace = true }  # Pin transitive dependency
 reqwest = { workspace = true }
 rustls = { workspace = true }
 rustls-rustcrypto = { workspace = true }
